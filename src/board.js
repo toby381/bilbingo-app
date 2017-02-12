@@ -8,12 +8,13 @@
 var Board = (function () {
     
 
-    var symbolTotal=3;
+    
     var rowTotal = 5;
     var colTotal = 4;
 
     var count=0; 
-    var symbols = ["elgskilt","hest","lastebil","sykkel","barnevogn"];
+    var symbols = ["elgskilt","hest","lastebil","sykkel","barnevogn","kirke"];
+    var symbolTotal=symbols.length;
     var list = new Array();
     var lines = 0;
     
