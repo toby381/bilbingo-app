@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>
+        Bilbingo
+    </title>
+     <link rel="stylesheet" href="css/animation.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tap demo</title>
+  <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>-->
+      <link rel="stylesheet" href="./js/vendor/mobile/jquery.mobile-1.4.5.min.css">
+  <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./js/vendor/jquery.preload/jquery.preload.js"></script>
+  <script src="./js/vendor/mobile/jquery.mobile-1.4.5.min.js"></script>
+    <script src="./js/ion-sound/ion.sound.js"></script>
+    <!--<script src="src/main.js"></script>
+     <script src="src/board.js"></script>
+     <script src="src/resizeBoard.js"></script>-->
+  <script src="./build/bilbingo.min.js"></script>
+
+
+</head>
+
+
+
+<body>
+<div data-role="page" id="front">
+
+
+  <div class="main" data-role="content">
+   
+      
+        <div class="start">
+             <!--<a  href="#settings"><img src="assets/bt_instillinger.png" /></a>-->
+            <a  href="#game" data-transition="pop" data-prefetch><img src="assets/bt_spill.png" /></a>
+            
+      </div>
+      
+    </div>
+</div>    
+    
+    
+<div data-role="page" id="game">
+
+
+  <div class="main"  data-role="content">
+<div id="board-wrapper">
+        
+    
+    <div id="board">
+        
+    </div>
+    <div id="board-logo" ><img src="assets/logo.png"/>
+    <div id="board-nav">
+        <a  onclick="Board.resetBoard();" href="javascript:void(0);"><img src="assets/bt_spill.png" /></a>
+    </div>
+    </div>
+    
+   </div>     
+   
+      
+    </div>
+</div>
+</body>
+</html>
+
+
+
+ 

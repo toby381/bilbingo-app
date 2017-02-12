@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42 39.1" enable-background="new 0 0 42 39.1" xml:space="preserve">
+<symbol  id="STJERNE" viewBox="-21 -19.5 42 39.1">
+	<polygon fill="#606060" points="12.6,-19.5 0.2,-10.1 -12.6,-19 -7.5,-4.3 -19.9,5.2 -4.3,4.8 0.8,19.5 5.3,4.6 20.9,4.3 8.1,-4.6 
+			"/>
+	<polygon fill="#FF931E" points="11.6,-19.5 -0.8,-10.1 -13.6,-19 -8.5,-4.3 -20.9,5.2 -5.3,4.8 -0.2,19.5 4.3,4.6 19.9,4.3 
+		7.1,-4.6 	"/>
+	<polygon display="none" fill="none" points="-21,19 21,19 21,-19 -21,-19 	"/>
+</symbol>
+<use xlink:href="#STJERNE"  width="42" height="39.1" x="-21" y="-19.5" transform="matrix(1 0 0 -1 21 19.5464)" overflow="visible"/>
+</svg>

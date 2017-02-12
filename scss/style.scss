@@ -1,0 +1,149 @@
+html, body { padding: 0; margin: 0; height:100%;}
+div#game,
+div#front {
+    height:100%;
+    background-size: cover;
+    background-position:center;
+    overflow:hidden;    
+               
+}
+
+div#front {background-image: url(../assets/background-splash.svg);}
+div#game {background-image: url(../assets/background1.png);}
+
+div#game div#board-wrapper {
+     position: absolute;
+    left:     50%;
+    top:      50%;
+    
+
+       
+}
+div#board {
+    
+    position: absolute;
+    width:80%;
+    top:8%;
+    overflow:hidden;
+    background-color:#fff;
+    
+    .box {
+        position:relative;
+        float: left; 
+        width:95px;
+        height:95px;
+        margin:7px;
+        
+        img.symbol {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            z-index: 11;
+        }
+        img.tile {
+            position:absolute;
+            top:0;
+            left:0;
+            z-index: 9;
+
+        }
+        img.check {
+            position:absolute;
+            top:0;
+            left:0;
+            z-index: 10;
+            display:none;            
+        }
+        img.star {
+            position:absolute;
+            top:0;
+            right:0;
+            margin-top:-5px;
+            margin-right:-5px;
+            z-index: 998;
+            display:none;
+        }
+        img.binder {
+            position:absolute;
+
+            top:50%;
+             transform: translate(0, -50%);
+            left:0;
+            margin-left:-22%;
+            
+            z-index: 999;
+            display:none;
+        }
+    }
+}
+
+div#board-logo {
+    width:18%;
+   position: absolute;
+    right:0;
+    top:5%;
+    
+    img{
+        width:100%;
+    }
+}
+ 
+
+div.main {
+    
+    .row {
+        clear: left; 
+        position:relative;
+        overflow:hidden;
+        .line {
+            position:absolute;
+            top:25px;
+            z-index:20;
+            border: 3px solid #000;
+            width:90vw;
+            display:none;
+        }
+    }
+}
+.tap {
+    border: 2px solid #0f0;
+}
+
+
+
+
+h1 {
+    margin:10px auto 0 auto;
+    padding:0;
+    width:90vw;
+    font-family: McLaren;
+    font-size: 20vw;
+    color:#37A647 !important;
+    
+    
+
+}
+div.start {
+    width:100%;
+    text-align:center;
+        
+    margin: 0 auto 0 auto;
+
+    position:absolute;
+    bottom:50px;
+        
+}
+
+
+
+.popin {
+-webkit-animation:pop-in 0.5s;
+-moz-animation:pop-in 0.5s;
+animation:pop-in 0.5s;
+}
+.bounce {
+-webkit-animation:pop-out-in 0.2s;
+-moz-animation:pop-out-in 0.2s;
+animation:pop-out-in 0.2s;
+}
