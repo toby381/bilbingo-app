@@ -156,7 +156,7 @@ var Board = (function () {
     }
     var resizeBoard = function () {
         var gameArea = $('div#game div#board-wrapper');
-        var widthToHeight = 4 / 3;
+        var widthToHeight = colTotal / rowTotal;
         var marginToWidth= (7/(667));
         var newWidth = window.innerWidth*1;
         var newHeight = window.innerHeight;

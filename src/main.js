@@ -34,7 +34,7 @@ function onDeviceReady() {
     }); 
     
     
-    Board.setBoard(5,4); 
+    Board.setBoard(5,5); 
     Board.resizeBoard();
 
     /*int button*/
